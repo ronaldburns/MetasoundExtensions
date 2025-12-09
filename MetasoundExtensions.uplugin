@@ -1,0 +1,29 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Metasound Extensions",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Ronald Burns",
+	"CreatedByURL": "https://github.com/ronaldburns/MetasoundExtensions",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MetasoundExtensionsNodes",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Metasound",
+			"Enabled": true
+		}
+	]
+}
